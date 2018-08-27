@@ -1,0 +1,5 @@
+num3=int(input())
+arr=input()
+q1=list(map(int,arr.split(' ')))
+num3=len(q1)
+print(min(q1),max(q1))
