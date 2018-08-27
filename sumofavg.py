@@ -1,0 +1,5 @@
+num = int(input(' '))
+arr=input()
+q1=list(map(int,arr.split(' ')))
+num=len(q1)
+print(sum(q1)//num)
