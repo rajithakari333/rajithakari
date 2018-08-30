@@ -3,4 +3,6 @@ number_string = str(myinteger)
 a=[]
 for ch in number_string:
     a.append(ch)
-print(a[0],a[1],a[2])
+m=(str(a)[1:-1])
+ch=(m.replace("'",''))
+print(ch.replace(',',' '))
