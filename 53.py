@@ -1,7 +1,7 @@
-n=int(input())
-tot=0
-while(n>0):
-    dig=n%10
-    tot=tot+dig
-    n=n//10
-print(tot)
+number=int(input())
+total=0
+while(number>0):
+    digit=number%10
+    total=total+digit
+    number=number//10
+print(total)
